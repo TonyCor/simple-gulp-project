@@ -1,18 +1,33 @@
 {
+  "name": "simple-gulp-project",
+  "title": "Simple gulp project",
+  "version": "1.0.0",
+  "author": "Anthony Corriveau <corriveau.anthony@gmail.com>",
+  "description": "Simple gulp project",
+  "main": "gulpfile.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "bootstrap-4-grid": "^2.4.1",
+    "path": "^0.12.7"
+  },
   "devDependencies": {
-    "gulp": "latest",
-    "gulp-util": "latest",
-    "gulp-sass": "latest",
-    "gulp-coffee": "latest",
-    "gulp-uglify": "latest",
-    "gulp-concat": "latest",
-    "gulp-connect": "latest",
-    "gulp-autoprefixer": "latest",
-    "gulp-csslint": "latest",
-    "gulp-cssnano": "latest",
-    "gulp-watch": "latest",
-    "gulp-notify": "latest",
-    "merge-stream": "latest",
-    "gulp-plumber": "latest"
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-csslint": "^1.0.1",
+    "gulp-environments": "^1.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1",
+    "gulp-postcss": "^8.0.0",
+    "cssnano": "^4.1.10",
+    "autoprefixer": "^9.7.2",
+    "del": "^5.1.0"
   }
 }

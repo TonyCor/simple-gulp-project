@@ -1,0 +1,18 @@
+{
+	"name": "simple-gulp-project-with-bower",
+	"version": "1.0.0",
+	"author": "Anthony Corriveau <corriveau.anthony@gmail.com>",
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components"
+	],
+	"dependencies": {
+		"fancybox": "^3.1.20",
+		"slick-carousel": "~1.6.0",
+		"matchHeight": "matchheight#^0.7.2",
+		"aos": "^2.3.0",
+		"rfs": "^7.1.3"
+	}
+}
