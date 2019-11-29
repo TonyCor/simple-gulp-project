@@ -1,8 +1,10 @@
-# Simple gulp project
+# Simple gulp project (+ bower)
 
 ## Installation
 
 `$ npm install `
+
+`$ bower install `
 
 ## Command
 
@@ -17,6 +19,14 @@
 #### Build js 
 `$ gulp js `
 #### Build js loose files
-`$ gulp jsloose
+`$ gulp jsloose`
 #### Clean generated folder
 `$ gulp clean`
+
+## Environment
+By default, it's the development mode.
+#### Dev (sourcemap)
+`$ gulp sass --env development`
+#### Prod (min)
+`$ gulp sass --env production`
+
