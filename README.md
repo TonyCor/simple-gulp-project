@@ -1,4 +1,4 @@
-# Simple gulp project (+ bower)
+# Simple gulp project (npm + bower)
 
 ## Installation
 
